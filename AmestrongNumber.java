@@ -1,8 +1,14 @@
+import java.util.Scanner;
 class AmestrongNumber
 {
 	public static void main(String[] args)
 	{
-		for (int i=1;i<=10000 ;i++)
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter minimum Value");
+		int min = sc.nextInt();
+		System.out.println("enter maximum value");
+		int max = sc.nextInt();		
+		for (int i = min;i <= max ;i++)
 		{
 			int num = i;
 			int temp = num;
